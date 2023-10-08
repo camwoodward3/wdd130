@@ -1,25 +1,41 @@
-p{
-    color: red;
+
+img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
 }
 
-.mypara{
-    color:green;
+main p {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+p {
+    width: 80%
 }
 
-#byui{
-    color: blue;
+a {
+    font-size: 1.5em;
 }
 
-p.mypara{
-    color: orange;
+body {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
 }
 
 #byui.mypara{
-    color: hotpink
+    color: blue
 }
 
 footer p{
-    color: chartreuse;
+    color: steelblue;
 }
 
 a:link, a:visited{
@@ -29,7 +45,7 @@ a:link, a:visited{
 
 a:hover {
     background-color: aliceblue;
-    color: steelblue
+    color: steelblue;
 }
 
 p:nth-child(odd){

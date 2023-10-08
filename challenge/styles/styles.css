@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0;
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+
+#education {
+    font-size: 24px;
+    font-family: 'Roboto';
+}
+
+#steps {
+    background-color: pink;
+    color: black;
+    font-family:'Roboto';
+
+}
+#quote {
+    font-size: 24px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
