@@ -1,0 +1,27 @@
+/* Content Stuff */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+#circles{
+max-width: 2000px; 
+margin: 0 auto; 
+text-align: center;  
+}
+
+/* images content */
+
+#images {
+    background-color: gray;
+    text-align: center;
+}
+
+.desk, .graphic, .person{
+    border: 25px solid rgb(57, 57, 57);
+    border-radius: 1000px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 250px;
+    max-height: 250px;
+}

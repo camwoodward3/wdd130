@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Roboto:wght@500&display=swap');
+/* Content Stuff */
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -30,6 +33,11 @@ main section{
 body{
     background-color:white; 
     color: #1a1a75;
+    font-family: 'Roboto', 'Helvetica', sans-serif;
+    font-size: 22px;
+}
+h2 {
+    margin: 0;
 }
 header{
     background-color:#004429;
@@ -42,12 +50,15 @@ nav a:hover{
 .book, .join{
     background-color:#a5a4c9;
     text-decoration: none;
+    font-size: 18px;
 }
 .book:hover, .join:hover{
     background-color:#a5a4c9;
 }
 .msg{
     background-color:#004429;
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 footer{
@@ -58,6 +69,7 @@ footer{
 nav a{
     background-color:#004429;
     color: white;
+    padding: 35px;
 }
 nav a:hover{
     background-color: #1a1a75;
@@ -67,6 +79,10 @@ nav a:hover{
 .home-title{
     background-color:#a5a4c9;
     color:#1a1a75;
+    font-family: "Dosis", "san-serif";
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 h4{
     background-color:#a5a4c9;
@@ -75,11 +91,27 @@ h4{
 .book, .join{
     background-color:#004429;
     color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px black solid;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid #004429;
+}
+main section img {
+    box-sizing: border-box;
 }
 .book:hover, .join:hover{
     background-color:#1a1a75;
     color: white;
     text-decoration: underline;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
 }
 .msg h2{
     background-color:#004429;
@@ -88,10 +120,16 @@ h4{
 .msg p{
     background-color:#004429;
     color: white;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
+/* Footer Stuff */
+
 footer{
     background-color:#a5a4c9;
     color: #1a1a75;
+    padding: 25px 50px;
+    margin-top: 50px;
 }
 footer a{
     background-color:#004429;
@@ -110,11 +148,19 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+footer .social img{
+    padding-top: 15px;
+}
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
