@@ -50,7 +50,6 @@
             </form>
         </main>
 
-
         <footer>
             <p>Dry Oar &copy; 20XX - Your First and Last Name Here</p>
             <p><a href="site-plan-rafting.html">Site Plan</a></p>
@@ -73,7 +72,7 @@
             const formElement = document.forms[0];
             formElement.addEventListener('submit', function(e) {
                 e.preventDefault();
-                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible';
+                feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value + '! Thank you for your message. We will get back with you as soon as possible!';
                 feedbackElement.style.display = "block";
                 document.body.classList.toggle('moveDown');
             })

@@ -362,7 +362,9 @@ button {
     right: 0;
     right: 0;
     padding: .5em;
-    display: none;
+}
+.moveDown {
+    margin-top: 3em;
 }
 
 /* Subpage */
@@ -380,7 +382,7 @@ button {
     background-color: #a5a4c9;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 #gc {

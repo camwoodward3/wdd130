@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Ubuntu&display=swap');
+/* Content Stuff */
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+
+
+body {
+    background-color: white;
+    color: #FA5702;
+    font-family: 'Orbitron', 'Ubuntu', 'san-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #FF0B00;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
