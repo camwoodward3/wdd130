@@ -28,3 +28,15 @@ nav {
     display: flex;
     justify-content: space-around;
 }
+
+nav a {
+    background-color: #FF0B00;
+    color: white;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #0284fa;
+    color: white;
+    text-decoration: underline;
+}
