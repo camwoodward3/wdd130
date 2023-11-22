@@ -24,6 +24,11 @@ header {
     color: white;
 }
 
+#hero-img {
+    align-self: center;
+    width: 100%;
+}
+
 nav {
     display: flex;
     justify-content: space-around;
@@ -33,9 +38,52 @@ nav a {
     background-color: #FF0B00;
     color: white;
     padding: 35px;
+    text-decoration: none;
 }
 
 nav a:hover {
+    background-color: #0284fa;
+    color: white;
+    text-decoration: underline;
+}
+
+h1 {
+    padding: 20px;
+}
+
+h2 {
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
+
+#mario {
+    float: right;
+    padding: 50px;
+}
+
+footer {
+    background-color: #FF0B00;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer a {
+    background-color: #FF0B00;
+    color: white;
+    padding: 42px;
+    text-decoration: none;
+}
+
+footer a:hover {
     background-color: #0284fa;
     color: white;
     text-decoration: underline;
