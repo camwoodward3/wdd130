@@ -385,6 +385,13 @@ button {
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+#river_info h1, p {
+    padding: 25px;
+}
+
+h1{
+    text-align: center;
+}
 #gc {
     width: 500px;
 }
