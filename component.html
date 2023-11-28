@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion Component Example</title>
+    <link rel="stylesheet" href="component-styles.css">
+</head>
+<body>
+    <button class="accordion">Paragraph 1</button>
+    <div class="panel">
+      <p>IN MY YOUNGER and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+    </div>
+    
+    <button class="accordion">Paragraph 2</button>
+    <div class="panel">
+      <p>"Whenever you feel like criticizing any one," he told me, "just remember that all the people in this world haven't had the advantages that you've had."</p>
+    </div>
+    
+    <button class="accordion">Paragraph 3</button>
+    <div class="panel">
+      <p>He didn't say any more, but we've always been unusually communicative in a reserved way, and I understood that he meant a great deal than that. I am still a little afraid of missing something if I forget that, as my father snobbishly suggested, and I snobbishly repeat, a sense of the fundamental decencies is parcelled out unequally at birth. </p>
+    </div> 
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}    
+</script>
+</body>
+</html>
