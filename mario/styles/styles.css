@@ -54,11 +54,13 @@ h1 {
 
 h2 {
     padding: 20px;
+    margin-left: 15px;
 }
 
 p {
     padding: 20px;
-    font-family: 'Ubuntu'
+    font-family: 'Ubuntu';
+    margin-left: 25px;
 }
 
 #mario {
@@ -90,4 +92,59 @@ footer a:hover {
     color: white;
     text-decoration: underline;
     transition: 0.4s;
+}
+
+/* History Stuff */
+.accordion {
+    background-color: #FF0B00;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    transition: 0.4s;
+    font-family: 'Orbitron';
+}
+
+.active, .accordion:hover {
+    background-color: #FA5702;
+    text-decoration: underline;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: #b1d9ff;
+    display: none;
+    overflow: hidden;
+}
+
+.panel img {
+    float: left;
+    padding: 10px;
+    height: 500px;
+    margin-bottom: 100px;
+}
+
+.panel p {
+    padding: 0px;
+    margin-left: 410px;
+    margin-right: 100px;
+}
+
+.panel h2 {
+    text-decoration: underline;
+    padding: 0px;
+    margin-left: 395px;
+}
+
+.panel h3 {
+    font-family: 'Ubuntu';
+    text-decoration: none;
+    margin-left: 400px;
+}
+
+.panel h4 {
+    text-decoration: underline;
+    margin-left: 400px;
 }
