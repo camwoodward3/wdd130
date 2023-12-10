@@ -50,9 +50,10 @@ nav a:hover {
 
 h1 {
     padding: 20px;
+    margin-left: 25px;
 }
 
-h2 {
+.panel h2 {
     padding: 20px;
     margin-left: 15px;
 }
@@ -60,7 +61,7 @@ h2 {
 p {
     padding: 20px;
     font-family: 'Ubuntu';
-    margin-left: 25px;
+    margin-left: 35px;
 }
 
 #mario {
@@ -107,7 +108,8 @@ footer a:hover {
     font-family: 'Orbitron';
 }
 
-.active, .accordion:hover {
+.active,
+.accordion:hover {
     background-color: #FA5702;
     text-decoration: underline;
 }
@@ -147,4 +149,232 @@ footer a:hover {
 .panel h4 {
     text-decoration: underline;
     margin-left: 400px;
+}
+
+/* Franchise stuff */
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.home-grid section {
+    margin-top: 50px;
+    margin-right: 25px;
+}
+
+.home-grid h2 {
+    text-align: center;
+    padding: 15px;
+    margin-top: 0;
+}
+
+.home-grid img {
+    width: 80%;
+}
+
+main section {
+    text-align: center;
+}
+
+.Mario {
+    grid-row: 1/2;
+    grid-column: 2/4;
+    border: 5px solid #ee1c25;
+}
+
+.Mario h2 {
+    color: white;
+    background-color: #E0102F;
+}
+
+#Mario-img {
+    margin-top: 15px;
+    max-width: 250px;
+}
+
+.Luigi {
+    grid-row: 1/2;
+    grid-column: 4/6;
+    border: 5px solid #40e54f;
+ 
+}
+
+.Luigi h2 {
+    color: white;
+    background-color: #08A936;
+}
+
+#Luigi-img {
+    max-width: 235px;
+}
+
+
+.Peach {
+    grid-row: 1/2;
+    grid-column: 6/8;
+    border: 5px solid #f6b1d0;
+}
+
+.Peach h2 {
+    color: white;
+    background-color: #F096BE;
+}
+
+#Peach-img {
+    max-width: 245px;
+    margin-top: -27px;
+}
+
+
+.Toad {
+    grid-row: 1/2;
+    grid-column: 8/10;
+    border: 5px solid #213bff;
+}
+
+
+.Toad h2 {
+    color: white;
+    background-color: #17419A;
+}
+
+#Toad-img {
+    margin-top: 126px;
+    max-width: 170px;
+}
+
+
+.Toadette {
+    grid-row: 2/3;
+    grid-column: 2/4;
+    border: 5px solid pink;
+
+}
+
+.Toadette h2 {
+    color: white;
+    background-color: #f54a97;
+}
+
+#Toadette-img {
+    max-width: 242px;
+    margin-top: 133px;
+}
+
+.Bowser {
+    grid-row: 2/3;
+    grid-column: 4/6;
+    border: 5px solid #ff7400
+}
+
+
+.Bowser h2 {
+    color: white;
+    background-color: #f8be10;
+
+}
+
+#Bowser-img {
+    max-width: 415px;
+}
+
+.Yoshi {
+    grid-row: 2/3;
+    grid-column: 6/8;
+    border: 5px solid #6fd251;
+
+}
+
+.Yoshi h2 {
+    color: white;
+    background-color: #70b921;
+}
+
+#Yoshi-img {
+    width: 183px;
+    height: 383px;
+    margin-top: 37px;
+}
+
+.Daisy {
+    grid-row: 2/3;
+    grid-column: 8/10;
+    border: 5px solid orange;
+}
+
+.Daisy h2 {
+    color: white;
+    background-color: #ee830a;
+}
+
+#Daisy-img {
+    margin-top: 35px;
+    max-width: 250px;
+}
+
+
+.Wario {
+    grid-row: 3/4;
+    grid-column: 2/4;
+    border: 5px solid #9c23fb;
+}
+
+.Wario h2 {
+    color: white;
+    background-color: #f5da0f;
+}
+
+#Wario-img {
+max-width: 275px;
+margin-top: 70px;
+}
+
+.Waluigi {
+    grid-row: 3/4;
+    grid-column: 4/6;
+    border: 5px solid #051139;
+}
+
+.Waluigi h2 {
+    color: white;
+    background-color: #5d2e8e;
+}
+
+#Waluigi-img {
+    max-width: 275px;
+    margin-top: 25px;
+}
+
+.Rosalina {
+    grid-row: 3/4;
+    grid-column: 6/8;
+    border: 5px solid #009aff;
+}
+
+.Rosalina h2 {
+    color: white;
+    background-color: #1dd4b7;
+}
+
+#Rosalina-img {
+    max-width: 320px;
+}
+
+
+.Bowser2 {
+    grid-row: 3/4;
+    grid-column: 8/10;
+    border: 5px solid #f0ff00;
+}
+
+.Bowser2 h2 {
+    color: white;
+    background-color: #f6ce09;
+}
+
+#Bowser2-img {
+    max-width: 259px;
+    margin-top: 76px;
 }
