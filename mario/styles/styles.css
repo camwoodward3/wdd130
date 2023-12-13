@@ -241,8 +241,9 @@ main section {
 }
 
 #Toad-img {
-    margin-top: 126px;
+    margin-top: 75px;
     max-width: 170px;
+    width: 60%;
 }
 
 
@@ -278,6 +279,7 @@ main section {
 
 #Bowser-img {
     max-width: 415px;
+    height: 315px;
 }
 
 .Yoshi {
@@ -293,9 +295,10 @@ main section {
 }
 
 #Yoshi-img {
-    width: 183px;
-    height: 383px;
+    max-width: 183px;
+    max-height: 383px;
     margin-top: 37px;
+    width: 60%;
 }
 
 .Daisy {
